@@ -16,9 +16,9 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-  let rnd1 = Math.floor(Math.random() * who.length - 2);
-  let rnd2 = Math.floor(Math.random() * 4);
-  let rnd3 = Math.floor(Math.random() * 5);
+  let rnd1 = Math.floor(Math.random() * who.length);
+  let rnd2 = Math.floor(Math.random() * what.length);
+  let rnd3 = Math.floor(Math.random() * when.length);
   excuse.innerHTML = who[rnd1] + " " + what[rnd2] + " " + when[rnd3];
-  //console.log("Hello Rigo from the console!");
+  console.log("Hello Rigo from the console!");
 };
